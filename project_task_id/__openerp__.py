@@ -6,17 +6,15 @@
     'category': 'Project Management',
     'summary': 'Adds id to task',
     'description': """
-Adds an id to task using a counter on each projekt.
+Adds an id to task using a counter on each project.
     """,
     'author': 'Vertel AB',
     'website': 'http://www.vertel.se',
     'depends': ['project'],
-    'data': ['project_view.xml',
+    'data': [
+        'project_view.xml',
         'project_view_data.xml',
        ],
-    #'external_dependencies': {
-        #'python' : ['bs4'],
-    #},
     'demo': [],
     'installable': True,
 }
